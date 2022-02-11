@@ -202,7 +202,7 @@ Empty set (0.00 sec)
 ```DESC userdetails;```
 
 | Field        | Type         | Null | Key | Default | Extra          |
-|:------------:|:------------:|:----:|:--_:|:-------:|:--------------:|
+|:------------:|:------------:|:----:|:---:|:-------:|:--------------:|
 | User_Id      | int          | NO   | PRI | NULL    | auto_increment |
 | Username     | char(50)     | YES  |     | NULL    |                |
 | Email        | varchar(255) | NO   | UNI | NULL    |                |
