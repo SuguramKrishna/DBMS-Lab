@@ -88,7 +88,7 @@ OR
 THIS QUERY WILL SELECT ALL THE VALUES IN THE TABLE
 
 | User_Id | Username |      Email       |
-| :-----: | :------: | :--------------: |
+|:-------:|:--------:|:----------------:|
 |    1    | Suguram  |  abc@gmail.com   |
 |    2    |   Sugu   |  abcd@gmail.com  |
 |    3    |    SK    | abcde@gmail.com  |
@@ -101,7 +101,7 @@ THIS QUERY WILL SELECT ALL THE VALUES IN THE TABLE
 `SELECT * FROM userdetails where Email = 'abcd@gmail.com';`
 
 | User_Id | Username |     Email      |
-| :-----: | :------: | :------------: |
+|:-------:|:--------:|:--------------:|
 |    2    |   Sugu   | abcd@gmail.com |
 
 1 row in set (0.00 sec)
@@ -117,7 +117,7 @@ Query OK, 0 rows affected (0.04 sec)
 `DESC userdetails;`
 
 |    Field     |     Type     | Null | Key | Default |     Extra      |
-| :----------: | :----------: | :--: | :-: | :-----: | :------------: |
+|:------------:|:------------:|:----:|:---:|:-------:|:--------------:|
 |   User_Id    |     int      |  NO  | PRI |  NULL   | auto_increment |
 |   Username   | varchar(20)  |  NO  |     |  NULL   |                |
 |    Email     | varchar(255) |  NO  | UNI |  NULL   |                |
@@ -132,7 +132,7 @@ Query OK, 0 rows affected (0.04 sec)
 DESC userdetails;
 
 |    Field     |     Type     | Null | Key | Default |     Extra      |
-|:------------:|:------------:|:----:|:--_:|:-------:|:--------------:|
+|:------------:|:------------:|:----:|:---:|:-------:|:--------------:|
 |   User_Id    |     int      |  NO  | PRI |  NULL   | auto_increment |
 |   Username   |   char(50)   | YES  |     |  NULL   |                |
 |    Email     | varchar(255) |  NO  | UNI |  NULL   |                |
