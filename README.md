@@ -240,3 +240,8 @@ Query OK, 0 rows affected (0.01 sec)
 
 6 rows in set (0.01 sec)
 
+#### CONSTRAINTS
+
+##### MOSTLY USED CONSTRAINTS
+
+* NOT NULL 
